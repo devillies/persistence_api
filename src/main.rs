@@ -18,5 +18,5 @@ mod schema;
 
 fn main() {
     dotenv().ok();
-    println!("Hello, world!");
+    sample::router::create_routes();
 }
