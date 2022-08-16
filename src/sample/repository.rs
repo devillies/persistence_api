@@ -8,6 +8,7 @@ use crate::sample::model::{NewPost, Post};
 use crate::schema::posts;
 use crate::schema::posts::dsl::*;
 
+//post
 pub fn create_post(new_post: NewPost, conn: &PgConnection) -> QueryResult<Post> {
     diesel::insert_into(posts::table)
         .values(&new_post)
