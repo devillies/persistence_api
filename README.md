@@ -1,9 +1,11 @@
-# Requirement
+# POST API using Diesel and Rocket
 
-- use local postgres or docker postgres
+## Requirement
+
+- use local postgres / [docker postgres](https://hub.docker.com/_/postgres)
 - libpq
-- diesel_cli
-- rust
+- [diesel_cli](https://diesel.rs/guides/getting-started)
+- [rust](https://www.rust-lang.org/)
 
 ## docker postgres
 
